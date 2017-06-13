@@ -88,8 +88,8 @@ module.exports = function(grunt) {
 		}
 		else
 		{
-      console.log("File " + v + " in base html not in child html!");
-      //throw new Error(); -- workaround, allow this for now
+			console.log("File " + v + " in base html not in child html!");
+			//throw new Error(); -- workaround, allow this for now
 		}
 	  })
 	  
