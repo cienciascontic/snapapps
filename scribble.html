@@ -31,7 +31,7 @@
 			var world;
 			window.onload = function () {
 				if ((navigator.platform === 'iPad' || navigator.platform === 'iPhone')
-				    && navigator.epubReadingSystem
+				    && "epubReadingSystem" in navigator
 				    && navigator.epubReadingSystem.name === 'iBooks') {
 				    // Add a margin to the top for iBooks on iPad and iPhone, where a black bar
 				    // can sit across the top, blocking access to the widget's controls.
