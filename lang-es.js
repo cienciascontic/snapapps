@@ -330,6 +330,10 @@ SnapTranslator.dict.es = {
         'siguiente disfraz',
     'costume #':
         '# de disfraz',
+    '%att of %spr':
+        '%att de %spr',
+    'my %get':
+        'mi(s) %get',
     'say %s for %n secs':
         'decir %s por %n segs',
     'say %s':
@@ -379,8 +383,10 @@ SnapTranslator.dict.es = {
         'detener todos los sonidos',
     'rest for %n beats':
         'silencio por %n pulsos',
-    'play note %n for %n beats':
-        'tocar nota %n por %n pulsos',
+    'play note %note for %n beats':
+        'tocar nota %note por %n pulsos',
+    'set instrument to %inst':
+        'fijar instrumento a %inst',
     'change tempo by %n':
         'cambiar tempo por %n',
     'set tempo to %n bpm':
@@ -418,7 +424,9 @@ SnapTranslator.dict.es = {
     'when %keyHat key pressed':
         'Al presionar tecla %keyHat',
     'when I am clicked':
-        'Al presionar Objeto',
+        'Cuando soy cliqueado',
+    'when %b':
+        'cuando %b',
     'when I receive %msgHat':
         'Al recibir %msgHat',
     'broadcast %msg':
@@ -536,6 +544,8 @@ SnapTranslator.dict.es = {
         '\u00BFes %s un %typ ?',
     'is %s identical to %s ?':
         '\u00BFes %s id\u00E9ntico a %s ?',
+    'JavaScript function ( %mult%s ) { %code }':
+        'Función JavaScript  ( %mult%s ) { %code }',
 
     'type of %s':
         'tipo de %s',
@@ -558,6 +568,8 @@ SnapTranslator.dict.es = {
         'esconder variable %var',
     'script variables %scriptVars':
         'variables de programa %scriptVars',
+    'inherit %shd':
+        'heredar %shd',
 
     // lists:
     'list %exp':
@@ -581,7 +593,11 @@ SnapTranslator.dict.es = {
     'insert %s at %idx of %l':
         'insertar %s en %idx de %l',
     'replace item %idx of %l with %s':
-        'remplazar elemento %idx de %l con %s',
+        'reemplazar elemento %idx de %l con %s',
+    'copy of %l':
+        'copiar de %l',
+    'get text from %l seperated by %s':
+        'tomar texto de %l separado por %s',
 
     // other
     'Make a block':
@@ -1122,10 +1138,50 @@ SnapTranslator.dict.es = {
     'any':
         'cualquier',
         
+    // attributes
+    'neighbors':
+        'vecinos',
+    'self':
+        'yo mismo',
+    'other sprites':
+        'otros Objetos',
+    'parts':
+        'partes',
+    'anchor':
+        'anclaje',
+    'parent':
+        'padre',
+    'children':
+        'hijo',
+    'clones':
+        'clones',
+    'other clones':
+        'otros clones',
+    'dangling?':
+        'colgado?',
+    'rotation x':
+        'rotación x',
+    'rotation y':
+        'rotación y',
+    'center x':
+        'centro x',
+    'center y':
+        'centro y',
+    'name':
+        'nombre',
+    'stage':
+        'escenario',
+    'costumes':
+        'disfraces',
+    'sounds':
+        'sonidos',
+    'scripts':
+        'scripts',
+        
     // MISSING UPSTREAM:
         
 	'when I am %interaction':
-		'Al ser %interaction',
+		'Cuando soy %interaction',
 	'clicked':
         'cliqueado',
     'pressed':
@@ -1161,6 +1217,8 @@ SnapTranslator.dict.es = {
         'crear clon de %cln',
     'myself':
         'mío',
+     'a new clone of %cln':
+        'un nuevo clon de %cln',
     'delete this clone':
         'eliminar este clon',
         
@@ -1170,6 +1228,26 @@ SnapTranslator.dict.es = {
         
     'turbo mode?':
         'modo turbo?',
+    'set turbo mode to %b':
+         'fijar modo turbo a %b',
+    'current %dates':
+         '%dates actual',
+    'year':
+        'año',
+    'month':
+        'mes',
+    'date':
+        'fecha',
+    'day of week':
+        'día de la semana',
+    'hour':
+        'hora',
+    'minute':
+        'minuto',
+    'second':
+        'segundo',
+    'time in milliseconds':
+        'tiempo en milisegundos',
         
     // under "graphical effects"
     'brightness':
@@ -1217,7 +1295,9 @@ SnapTranslator.dict.es = {
     'set pen alpha to %n':
         'cambiar lápiz alfa a %n',
     'get pen color string':
-        'tomar texto de color de lápiz',
+        'tomar color de lápiz del texto',
+    'set pen color string %s':
+        'fijar color de lápiz del texto %s',
     'pen down?':
         'lápiz abajo?',
         
@@ -1237,8 +1317,8 @@ SnapTranslator.dict.es = {
 		    'cambiar sombreado de texto por %n',
     'change text alpha by %n':
 		    'cambiar transparencia texto por %n',
-    'set text alpha to %n':
-		    'setear transparencia texto a %n',
+    'set text alpha to %s':
+            'setear transparencia texto a %s',
     'set text shade to %n':
 		    'setear sombreado de texto a %n',
     'set text hue to %n':
@@ -1330,6 +1410,10 @@ SnapTranslator.dict.es = {
         'cantidad de instancias de %cln',
     'last created clone':
         'último clon creado',
+     'tell %spr to %cl':
+         'decirle a %spr que %cl',
+     'ask %spr for %repRing':
+         'pedir a %spr para %repRing',
 
     // sensing:
     'system time':
