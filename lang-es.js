@@ -645,11 +645,15 @@ SnapTranslator.dict.es = {
         'Exportar bloques...',
     'show global custom block definitions as XML\nin a new browser window':
         'mostrar definiciones de bloques globales personalizados como XML\nen una nueva ventana',
+        'Export summary...':
+        'Resumen de exportación...',
     'Import tools':
         'Herramientas de importaci\u00F3n',
     'load the official library of\npowerful blocks':
         'cargar la biblioteca oficial de\nbloques potentes',
-
+    'Libraries...':
+        'Bibliotecas...',
+        
     // settings menu
     'Language...':
         'Idioma...',
@@ -1570,16 +1574,16 @@ SnapTranslator.dict.es = {
      		'cantidad de celdas vcns llenas',
 
     // New variable dialog "global" type radio button.
-    "global": "¿Qué?",
+    "global": "para todos los objetos",
     
     // New variable dialog "for each instance of this sprite" type radio button.
-    "for each instance of this sprite": "¿Qué?",
+    "for each instance of this sprite": "para cada instancia de este objeto",
     
     // to plot the value of a variable
-    "plot": "¿Qué?",
+    "plot": "graficar",
     
     // used to plot the value of a variable (show variable, right click on the little watcher, "plot...")
-    "plot...": "¿Qué?",
+    "plot...": "graficar...",
     
     // Default name of a variable in the Objects panel.
     "varName": "NomVar",
@@ -1621,7 +1625,7 @@ SnapTranslator.dict.es = {
     "grid size": "tamaño grilla",
     
     // hover text for clear button
-    "clear current cell attribute": "¿Qué?",
+    "clear current cell attribute": "borrar atributo actual de celda",
     
     // default cell query text
     "(hover to query)": "(mouse encima para ver valor)",
