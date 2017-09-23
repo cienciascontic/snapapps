@@ -417,6 +417,9 @@ SnapTranslator.dict.es = {
         'fijar tama\u00F1o de l\u00E1piz a %n',
     'stamp':
         'sellar',
+    'fill':
+        'llenar',
+
 
     // control:
     'when %greenflag clicked':
@@ -532,6 +535,8 @@ SnapTranslator.dict.es = {
         'hola',
     'world':
         'mundo',
+    'split %s by %delim':
+        'separar %s por %delim',
     'letter %n of %s':
         'letra %n de %s',
     'length of %s':
@@ -1120,6 +1125,20 @@ SnapTranslator.dict.es = {
     'e^':
         'e^',
 
+     // delimiters
+    'letter':
+        'Letra',
+    'whitespace':
+        'Espacio',
+    'line':
+        'Línea',
+    'tab':
+        'Tabulador',
+    'cr':
+        'Retorno de línea',
+    'csv':
+        'Coma',
+        
     // data types
     'number':
         'n\u00FAmero',
