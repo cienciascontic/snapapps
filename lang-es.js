@@ -438,6 +438,10 @@ SnapTranslator.dict.es = {
         'enviar mensaje %msg y esperar',
     'Message name':
         'Nombre de mensaje',
+    'message':
+        'mensaje',
+    'any message':
+        'cualquier mensaje',
     'wait %n secs':
         'esperar %n segs',
     'wait until %b':
@@ -792,6 +796,30 @@ SnapTranslator.dict.es = {
         'exportar',
     'rename costume':
         'renombrar disfraz',
+        
+   // graphical effects
+    'color':
+        'Color',
+    'fisheye':
+        'Ojo de pez',
+    'whirl':
+        'Remolino',
+    'pixelate':
+        'Pixelado',
+    'mosaic':
+        'Mosaico',
+    'saturation':
+        'Saturación',
+    'brightness':
+        'Brillo',
+    'ghost':
+        'Fantasma',
+    'negative':
+        'Negativo',
+    'comic':
+        'Historieta',
+    'confetti':
+        'Confite',
 
     // sounds
     'Play sound':
@@ -1026,6 +1054,8 @@ SnapTranslator.dict.es = {
         'flecha derecha',
     'left arrow':
         'flecha izquierda',
+    'any key':
+        'cualquier tecla',
     'a':
         'a',
     'b':
@@ -1101,21 +1131,25 @@ SnapTranslator.dict.es = {
 
     // messages
     'new...':
-        'nuevo...',
+        'crear nuevo mensaje...',
 
     // math functions
     'abs':
         'abs',
+    'ceiling':
+        'redondear hacia arriba',
+    'floor':
+        'redondear hacia abajo',
     'sqrt':
         'ra\u00EDz cuadrada',
     'sin':
-        'sin',
+        'sen',
     'cos':
         'cos',
     'tan':
         'tan',
     'asin':
-        'asin',
+        'asen',
     'acos':
         'acos',
     'atan':
